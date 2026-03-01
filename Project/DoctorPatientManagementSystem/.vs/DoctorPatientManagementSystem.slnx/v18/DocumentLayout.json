@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\dal\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\dal\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\dal\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\dal\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\bll\\doctorsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\bll\\doctorsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\bll\\patientsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\bll\\patientsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\interfaces\\idoctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\interfaces\\idoctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\interfaces\\ipatientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\interfaces\\ipatientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|c:\\users\\asus\\onedrive\\desktop\\topbrains\\project\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem\\doctorpatientmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FF93F1F-A40B-F9AC-E1CB-62FE4090BE36}|DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj|solutionrelative:doctorpatientmanagementsystem\\doctorpatientmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorManager.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\DAL\\DoctorManager.cs",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\DAL\\DoctorManager.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\DAL\\DoctorManager.cs",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\DAL\\DoctorManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:23:18.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\Entities\\Patient.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Entities\\Patient.cs",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\Entities\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:22:18.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientManager.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\DAL\\PatientManager.cs",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\DAL\\PatientManager.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\DAL\\PatientManager.cs",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\DAL\\PatientManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:23:31.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorsBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\BLL\\DoctorsBLL.cs",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\BLL\\DoctorsBLL.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\BLL\\DoctorsBLL.cs",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\BLL\\DoctorsBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:23:46.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDoctorManager.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Interfaces\\IDoctorManager.cs",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\Interfaces\\IDoctorManager.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Interfaces\\IDoctorManager.cs",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\Interfaces\\IDoctorManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:22:55.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientsBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\BLL\\PatientsBLL.cs",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\BLL\\PatientsBLL.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\BLL\\PatientsBLL.cs",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\BLL\\PatientsBLL.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:23:56.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Presentation\\Program.cs",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:19:25.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPatientManager.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Interfaces\\IPatientManager.cs",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\Interfaces\\IPatientManager.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Interfaces\\IPatientManager.cs",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\Interfaces\\IPatientManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:22:43.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\Entities\\Doctor.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\Entities\\Doctor.cs",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\Entities\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:22:10.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorPatientManagementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj",
+              "RelativeDocumentMoniker": "DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\TopBrains\\Project\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj",
+              "RelativeToolTip": "DoctorPatientManagementSystem\\DoctorPatientManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-28T06:20:35.997Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
