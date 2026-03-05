@@ -18,7 +18,6 @@ namespace Hospital.API
 
             // REPOSITORIES
             builder.Services.AddScoped<IDoctorRepository, DoctorRepositoryEF>();
-
             builder.Services.AddScoped<IPatientRepository>(provider =>
             {
                 var configuration = provider.GetRequiredService<IConfiguration>();

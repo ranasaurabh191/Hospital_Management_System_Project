@@ -10,5 +10,4 @@
   <Project Path="Hospital.PatientService/Hospital.PatientService.csproj" />
   <Project Path="Hospital.Web.Test/Hospital.Web.Test.csproj" />
   <Project Path="Hospital.Web/Hospital.Web.csproj" />
-  <Project Path="HospitalManagementSolution.HTML/HospitalManagementSolution.HTML.csproj" />
 </Solution>

@@ -1,0 +1,24 @@
+﻿@model Hospital.Web.Models.AppointmentViewModel
+
+<h2>Create Appointment</h2>
+
+<form method="post">
+
+    <label>Date</label>
+    <input asp-for="AppointmentDate" type="datetime-local" />
+
+    <br />
+
+    <label>DoctorId</label>
+    <input asp-for="DoctorId" />
+
+    <br />
+
+    <label>PatientId</label>
+    <input asp-for="PatientId" />
+
+    <br />
+
+    <button type="submit">Save</button>
+
+</form>

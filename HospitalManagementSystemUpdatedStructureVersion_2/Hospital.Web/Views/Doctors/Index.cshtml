@@ -1,0 +1,25 @@
+﻿@model List<Hospital.Web.Models.DoctorViewModel>
+
+<h2>Doctors</h2>
+
+<a asp-action="Create">Add Doctor</a>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Specialization</th>
+        <th>Fee</th>
+    </tr>
+
+    @foreach (var doctor in Model)
+    {
+        <tr>
+            <td>@doctor.DoctorId</td>
+            <td>@doctor.Name</td>
+            <td>@doctor.Specialization</td>
+            <td>@doctor.ConsultationFee</td>
+        </tr>
+    }
+
+</table>

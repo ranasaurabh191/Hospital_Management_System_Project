@@ -1,0 +1,24 @@
+﻿@model Hospital.Web.Models.DoctorViewModel
+
+<h2>Add Doctor</h2>
+
+<form method="post">
+
+    <label>Name</label>
+    <input asp-for="Name" />
+
+    <br />
+
+    <label>Specialization</label>
+    <input asp-for="Specialization" />
+
+    <br />
+
+    <label>Consultation Fee</label>
+    <input asp-for="ConsultationFee" />
+
+    <br />
+
+    <button type="submit">Save</button>
+
+</form>

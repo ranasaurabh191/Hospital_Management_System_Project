@@ -1,5 +1,6 @@
 ﻿using Hospital.Application.Services;
 using Hospital.Domain.Entities;
+using Hospital.Domain.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hospital.API.Controllers;
@@ -32,7 +33,18 @@ public class AppointmentsController : ControllerBase
     [HttpPost]
     public IActionResult Add(Appointment appointment)
     {
-        _service.AddAppointment(appointment);
-        return Ok();
+        try
+        {
+            _service.AddAppointment(appointment);
+            return Ok("Appointment created successfully.");
+        }
+        catch (DoctorNotFoundException ex)
+        {
+            return NotFound(new { message = ex.Message });
+        }
+        catch (PatientNotFoundException ex)
+        {
+            return NotFound(new { message = ex.Message });
+        }
     }
 }

@@ -30,11 +30,23 @@ public class PatientsController : ControllerBase
         }
     }
 
+
     [HttpPost]
     public IActionResult Add(Patient patient)
     {
-        _service.AddPatient(patient);
-        return Ok();
+        try
+        {
+            _service.AddPatient(patient);
+            return Ok(new { message = "Patient added successfully." });
+        }
+        catch (DoctorNotFoundException ex)
+        {
+            return NotFound(new { message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
     }
 
     [HttpPut]

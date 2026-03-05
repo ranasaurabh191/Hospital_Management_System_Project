@@ -1,3 +1,5 @@
+using Hospital.Web.Services;
+
 namespace Hospital.Web
 {
     public class Program
@@ -8,7 +10,20 @@ namespace Hospital.Web
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddHttpClient<DoctorApiService>(client =>
+            {
+                client.BaseAddress = new Uri("http://localhost:5071/api/");
+            });
 
+            builder.Services.AddHttpClient<PatientApiService>(client =>
+            {
+                client.BaseAddress = new Uri("http://localhost:5071/api/");
+            });
+
+            builder.Services.AddHttpClient<AppointmentApiService>(client =>
+            {
+                client.BaseAddress = new Uri("http://localhost:5071/api/");
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

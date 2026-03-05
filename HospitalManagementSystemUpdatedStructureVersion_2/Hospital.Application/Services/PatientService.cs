@@ -6,16 +6,18 @@ namespace Hospital.Application.Services;
 
 public class PatientService
 {
-    private readonly IPatientRepository _repo;
+    private readonly IPatientRepository _patientRepo;
+    private readonly IDoctorRepository _doctorRepo;
 
-    public PatientService(IPatientRepository repo)
+    public PatientService(IPatientRepository patientRepo, IDoctorRepository doctorRepo)
     {
-        _repo = repo;
+        _patientRepo = patientRepo;
+        _doctorRepo = doctorRepo;
     }
 
     public IEnumerable<Patient> GetPatients()
     {
-        var patients = _repo.GetPatients();
+        var patients = _patientRepo.GetPatients();
 
         if (!patients.Any())
             throw new PatientNotFoundException("No patients found.");
@@ -25,7 +27,7 @@ public class PatientService
 
     public Patient FindPatient(string name)
     {
-        var patient = _repo.FindPatient(name);
+        var patient = _patientRepo.FindPatient(name);
 
         if (patient == null)
             throw new PatientNotFoundException($"Patient '{name}' not found.");
@@ -35,26 +37,39 @@ public class PatientService
 
     public void AddPatient(Patient patient)
     {
-        _repo.AddPatient(patient);
+        var doctor = _doctorRepo.GetDoctors()
+                                .FirstOrDefault(d => d.DoctorId == patient.DoctorId);
+
+        if (doctor == null)
+            throw new DoctorNotFoundException($"Doctor with ID {patient.DoctorId} not found.");
+
+        _patientRepo.AddPatient(patient);
     }
 
     public void UpdatePatient(Patient patient)
     {
-        var existingPatient = _repo.GetPatients().FirstOrDefault(p => p.PatientId == patient.PatientId);
+        var existingPatient = _patientRepo.GetPatients()
+                                          .FirstOrDefault(p => p.PatientId == patient.PatientId);
 
         if (existingPatient == null)
             throw new PatientNotFoundException($"Patient with ID {patient.PatientId} not found.");
 
-        _repo.UpdatePatient(patient);
+        var doctor = _doctorRepo.GetDoctors()
+                                .FirstOrDefault(d => d.DoctorId == patient.DoctorId);
+
+        if (doctor == null)
+            throw new DoctorNotFoundException($"Doctor with ID {patient.DoctorId} not found.");
+
+        _patientRepo.UpdatePatient(patient);
     }
 
     public void DeletePatient(int id)
     {
-        var patient = _repo.GetPatients().FirstOrDefault(p => p.PatientId == id);
+        var patient = _patientRepo.GetPatients().FirstOrDefault(p => p.PatientId == id);
 
         if (patient == null)
             throw new PatientNotFoundException($"Patient with ID {id} not found.");
 
-        _repo.DeletePatient(id);
+        _patientRepo.DeletePatient(id);
     }
 }
