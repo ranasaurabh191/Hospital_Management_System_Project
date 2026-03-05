@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Hospital.Domain.Entities;
 
-namespace Hospital.Domain.Entities
+public class Doctor
 {
-    public class Doctor
-    {
-        public int DoctorId { get; set; }
-        public string Name { get; set; }
-        public string Specialization { get; set; }
-        public decimal ConsultationFee { get; set; }
+    public int DoctorId { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Specialization { get; set; } = string.Empty;
+    public decimal ConsultationFee { get; set; }
 
-        //This shows that one doctor has many patients.
-        public ICollection<Patient> Patients { get; set; } = new List<Patient>();
-    }
+    public List<Patient> Patients { get; set; } = new();
+    public List<Appointment> Appointments { get; set; } = new();
 }
